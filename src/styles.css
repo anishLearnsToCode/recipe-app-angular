@@ -1,1 +1,29 @@
 /* You can add global styles to this file, and also import other style files */
+
+.roboto{
+  font-family: Roboto;
+}
+.roboto-medium{
+  font-family: "Roboto Medium";
+}
+.playfair{
+  font-family: "Playfair Display";
+}
+
+.min-height-one-vh{
+  min-height: 1vh;
+}
+
+.margin-padding-zero{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  min-height: 1vh;
+  background-color: green;
+}
+
+app-root{
+  min-height: inherit;
+}
