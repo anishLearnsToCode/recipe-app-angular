@@ -10,6 +10,6 @@ app-recipe-list{
 }
 
 app-recipe-detail{
-  background-color: red;
+  /*background-color: red;*/
   height: 100%;
 }

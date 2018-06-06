@@ -19,9 +19,13 @@
   padding: 0;
 }
 
+.padding-30{
+  padding: 30px;
+}
+
 body{
-  min-height: 1vh;
-  background-color: green;
+  max-height: 1vh;
+  /*background-color: green;*/
 }
 
 app-root{
