@@ -8,11 +8,14 @@ import {Recipe} from '../recipe.model';
 })
 export class RecipeListComponent implements OnInit {
 
+  burger = new Recipe('Burger', 'Unhealthy',
+    'https://cdn.pixabay.com/photo/2016/08/31/21/47/burger-1634705_960_720.jpg');
   recipes: Recipe[] = [];
 
   constructor() {
     this.recipes.push(new Recipe('Rajma Chawal', 'Tasty Dish',
       'https://cdn.pixabay.com/photo/2016/08/31/21/47/burger-1634705_960_720.jpg'));
+    this.recipes.push(this.burger);
   }
 
   ngOnInit() {

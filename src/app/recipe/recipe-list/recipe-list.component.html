@@ -1,6 +1,13 @@
 <h1 class="playfair">Recipe List</h1>
 
+<button type="button" class="btn btn-dark" id="add-recipe">Add Recipe</button>
 
-<app-recipe-item></app-recipe-item>
-<app-recipe-item></app-recipe-item>
-<app-recipe-item></app-recipe-item>
+<!--<app-recipe-item *ngFor="let recipe of recipes"></app-recipe-item>-->
+
+<div *ngFor="let recipe of recipes" class="card card-body" style="margin: 10px;">
+  <a href="#" class="recipe-card">
+    <img [src]=" recipe.imagePath " class="card-img img-fluid">
+    <h4> {{ recipe.name }}</h4>
+    <p> {{ recipe.description }}</p>
+  </a>
+</div>

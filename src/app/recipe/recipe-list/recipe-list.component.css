@@ -1,3 +1,20 @@
 app-recipe-list{
   color: red;
 }
+
+#add-recipe{
+  margin-bottom: 10px;
+}
+
+app-recipe-item{
+  margin: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: initial;
+}
+
+div:hover{
+  background-color: lightgray;
+}
