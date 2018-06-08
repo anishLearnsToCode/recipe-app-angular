@@ -1,3 +1,19 @@
 <h1 class="playfair">Recipe Detail</h1>
+<hr>
 
-<button class="btn-dark btn">Button me</button>
+<h3 class="playfair"> {{ "Recipe Name" }}</h3>
+
+<div class="btn-group">
+  <button type="button" class="btn btn-light btn-outline-dark dropdown-toggle">Manage {{ "Recipe Name "}} <span class="caret"></span> </button>
+  <ul class="dropdown-menu">
+    <li class="dropdown-item"><a href="#"> Add to shopping List</a> </li>
+    <li class="dropdown-item"><a href="#">Edit Recipe</a> </li>
+    <li class="dropdown-item"><a href="#" class="bg-danger">Delete Recipe</a> </li>
+  </ul>
+</div>
+
+<h4 class="playfair">Description</h4>
+<p class="roboto">{{ "recipe description " }}</p>
+
+<h4 class="playfair">Ingredients</h4>
+<p class="roboto"> {{ "recipe ingredients "}} </p>

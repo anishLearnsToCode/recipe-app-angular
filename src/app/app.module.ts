@@ -7,6 +7,7 @@ import { RecipeListComponent } from './recipe/recipe-list/recipe-list.component'
 import { RecipeItemComponent } from './recipe/recipe-list/recipe-item/recipe-item.component';
 import { RecipeDetailComponent } from './recipe/recipe-list/recipe-detail/recipe-detail.component';
 import { NavigationBarComponent } from './navigation-bar/navigation-bar.component';
+import { ShoppingListComponent } from './ShoppingApp/shopping-list/shopping-list.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { NavigationBarComponent } from './navigation-bar/navigation-bar.componen
     RecipeListComponent,
     RecipeItemComponent,
     RecipeDetailComponent,
-    NavigationBarComponent
+    NavigationBarComponent,
+    ShoppingListComponent
   ],
   imports: [
     BrowserModule
