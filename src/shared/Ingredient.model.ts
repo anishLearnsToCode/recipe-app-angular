@@ -6,8 +6,5 @@ export class IngredientModel {
     this.name = name;
     this.amount = amount;
   }
-
-  constructor(name: string) {
-    this.name = name;
-  }
 }
+
